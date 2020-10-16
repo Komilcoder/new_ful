@@ -53,7 +53,7 @@ class PythonForm(forms.ModelForm):
    
 
 class AndroidForm(forms.ModelForm):
-    
+
     class Meta:
         model = Android
         fields = [
